@@ -1,0 +1,1 @@
+echo -e "Starting go doc\ngo to http://localhost:8001/pkg/\n" && godoc -http :8001 -goroot /usr/share/go-1.15 > /dev/null 2>&1 &
